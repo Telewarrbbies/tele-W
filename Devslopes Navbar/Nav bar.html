@@ -1,0 +1,168 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>23-09</title>
+    <link rel="stylesheet" href="Nav.css">
+</head> 
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li class="logo"><a href="#news">23-09<br> <span>Events</span></a></li>
+            <li><a href="#news">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#news">Contact</a></li>
+            <li><a href="#news">About</a></li>
+            <li class="topnav-right"><a href="#news">Sign up</a></li>
+            <li class="topnav-right"><a href="#news">Sign in</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownmenu()">&#9776; </a></li>
+        </ul>
+   
+    </nav>
+   <div class="container" id="section-1-gradient">
+      <div class="row">
+        <div class="col-6">
+            <div class="leftSide-col">
+                <h1 class="large">23-09 </h1>
+                <h1 class="large">MADE FOR YOUR EVENT</h1>
+            </div>
+            <form>
+                <div class="leftSide-col">
+                    <h2>USERNAME</h2>
+                    <input class="inputbox" name="USERNAME" placeholder="USERNAME" type="text">
+                    <h2>PASSWORD</h2>
+                    <Input class="inputbox" name="PASSWORD" placeholder="PASSWORD" type="text"></Input>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="rightside-col">
+                <div class="videoContainer">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rL0l6IzHkiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+      </div>
+   </div>
+   <header>
+    <h1 class="section2header">THE STANDARDS OF AWESOMENESS</h1>
+   </header>
+   <div class="container">
+      <div class="row">
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="WhatsApp Image 2023-06-13 at 12.30.31 PM.jpeg">
+                   </div> 
+                <label>Contact Us</label>
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="WhatsApp Image 2023-06-13 at 12.30.31 PM (1).jpeg">
+                   </div> 
+                <label>19-23</label>
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="WhatsApp Image 2023-06-13 at 12.31.54 PM.jpeg">
+                   </div> 
+                <label>Events</label>
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="learnMore">Learn more</button>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+     <div class="row">
+        <div class="col-7">
+            <article>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                </p>
+            </article>
+        </div>
+        <div class="col-5">
+            <div class="slopeIcon">
+                <img src="WhatsApp Image 2023-06-13 at 12.31.54 PM.jpeg" alt="">
+                <img src="WhatsApp Image 2023-06-13 at 12.30.31 PM.jpeg">
+                <img src="WhatsApp Image 2023-06-13 at 12.30.31 PM (1).jpeg">
+            </div>
+        </div>
+     </div>
+    </div>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStacks">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStacks">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStacks">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStacks">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        function dropdownmenu() {
+    var x = document.getElementById("dropdownClick");
+    var dropdownIcon = document.querySelector(".dropdownIcon");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        dropdownIcon.style.display = "block";
+    } else {
+        x.className = "topnav";
+        dropdownIcon.style.display = "none";
+    }
+}
+    </script>
+</body>
+   
+</html>

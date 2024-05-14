@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="undiluted.css"/>
+    <title>UNDILUTED WEB</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">HIRE  <span>ME</span></a></div>
+            <ul class="links">
+                <li><a href="hero">Home</a></li>
+                <li><a href="hero">About</a></li>
+                <li><a href="hero">Services</a></li>
+                <li><a href="hero">Contact</a></li>
+            </ul>
+            <a href="#" class="action_btn">Click to hire me</a>
+           <div class="toggle_btn"><h6>MENU</h6></div>
+        </div>
+        <div class="dropdown_menu">
+            <ul>
+              <li><a href="hero">Home</a></li>
+              <li><a href="hero">About</a></li>
+              <li><a href="hero">Services</a></li>
+              <li><a href="hero">Contact</a></li>
+              <li><a href="#" class="action_btn">Click to hire me</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <Main>
+        <section id="hero">
+            <h1>WELCOME YOU ALL</h1>
+            <p>
+                "Enhance your online presence with a professional website designer. Expertise, attention to detail, <br>
+                and stunning designs that leave a lasting impression."
+            </p>
+        </section>
+    </Main>
+    <script>
+        const togglebtn = document.querySelector('.toggle_btn')
+        const togglebtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        togglebtn.onclick = function() {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+
+            togglebtnIcon.classList = isOpen
+             ? 'fa-solid fa-xmark'
+             : 'fa-solid fa-bars'
+        }
+    </script>
+        
+</body>
+</html>
